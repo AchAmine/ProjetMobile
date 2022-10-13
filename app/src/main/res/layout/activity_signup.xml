@@ -18,12 +18,13 @@
 
     <EditText
         android:id="@+id/edMail"
-        android:layout_width="330dp"
+        android:layout_width="384dp"
         android:layout_height="51dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="@string/hint_mail"
         android:inputType="textEmailAddress"
+        android:background="@drawable/edit_text_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,12 +32,13 @@
 
     <EditText
         android:id="@+id/edPW"
-        android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="@string/hint_password"
         android:inputType="textPassword"
+        android:background="@drawable/edit_text_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,12 +46,13 @@
 
     <EditText
         android:id="@+id/edPW2"
-        android:layout_width="332dp"
-        android:layout_height="48dp"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/repeat_password"
         android:inputType="textPassword"
+        android:background="@drawable/edit_text_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,12 +60,13 @@
 
     <EditText
         android:id="@+id/edPhone"
-        android:layout_width="329dp"
-        android:layout_height="63dp"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Phone number"
         android:inputType="textPersonName"
+        android:background="@drawable/edit_text_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
