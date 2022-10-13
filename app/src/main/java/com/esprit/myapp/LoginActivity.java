@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -27,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
 
         loginBtn = findViewById(R.id.btnLogin);
         loginBtn.setOnClickListener(e -> {
-            intent = new Intent(LoginActivity.this , HomeActivity.class);
+            intent = new Intent(LoginActivity.this , MenuActivity.class);
             startActivity(intent);
         });
 
