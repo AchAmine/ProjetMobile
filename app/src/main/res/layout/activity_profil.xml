@@ -52,19 +52,26 @@
             android:id="@+id/imageView7"
             android:layout_width="143dp"
             android:layout_height="60dp"
+            android:layout_marginEnd="220dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/profile_icon"
-            tools:layout_editor_absoluteX="55dp"
-            tools:layout_editor_absoluteY="239dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/profile_icon" />
 
         <ImageView
             android:id="@+id/imageView9"
             android:layout_width="142dp"
             android:layout_height="59dp"
+            android:layout_marginEnd="40dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/icon_key"
-            tools:layout_editor_absoluteX="233dp"
-            tools:layout_editor_absoluteY="239dp" />
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.995"
+            app:srcCompat="@drawable/icon_key" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -133,12 +140,13 @@
         android:id="@+id/saveButton"
         android:layout_width="389dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginTop="52dp"
+
         android:text="Save!"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPhone" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
