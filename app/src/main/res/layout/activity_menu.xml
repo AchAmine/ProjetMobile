@@ -74,7 +74,7 @@
             android:layout_width="262dp"
             android:layout_height="55dp"
             android:layout_marginEnd="124dp"
-            android:text="Nom de l'app"
+            android:text="MyCity"
             android:textColor="@android:color/black"
             android:textSize="20sp"
             android:textStyle="bold"
