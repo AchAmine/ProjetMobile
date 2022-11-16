@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -21,6 +22,13 @@ public class LoginActivity extends AppCompatActivity {
         signupTv = findViewById(R.id.tvSignup);
         signupTv.setOnClickListener(e -> {
             intent = new Intent(LoginActivity.this , signupActivity.class);
+            startActivity(intent);
+        });
+
+
+        loginBtn = findViewById(R.id.btnLogin);
+        loginBtn.setOnClickListener(e -> {
+            intent = new Intent(LoginActivity.this , MenuActivity.class);
             startActivity(intent);
         });
 
