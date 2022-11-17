@@ -3,10 +3,13 @@ package com.esprit.myapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.esprit.myapp.Database.Database;
 import com.esprit.myapp.Entity.Complaint;
@@ -22,6 +25,7 @@ public class FormActivity extends AppCompatActivity {
     private Database database;
     private EditText object, details;
     private ImageView imgTag1 , imgTag2 , imgTag3 , imgTag4 , imgTag5 , imgTag6 ;
+    private TextView tvTag1;
     String tag = "";
 
     //private HashMap<>
@@ -52,6 +56,8 @@ public class FormActivity extends AppCompatActivity {
 
     public void getTag() {
         imgTag1 = findViewById(R.id.imgtag1);
+        tvTag1 = findViewById(R.id.tvTag1);
+
         imgTag2 = findViewById(R.id.imgtag1);
         imgTag3 = findViewById(R.id.imgtag3);
         imgTag4 = findViewById(R.id.imgtag4);
@@ -60,14 +66,18 @@ public class FormActivity extends AppCompatActivity {
 
         imgTag1.setOnClickListener(e -> {
             tag = "Trash";
+            tvTag1.setSelected(true);
+            tvTag1.setHighlightColor(Color.RED);
         });
 
         imgTag2.setOnClickListener(e -> {
             tag = "Leak";
+
         });
 
         imgTag3.setOnClickListener(e -> {
             tag = "Mosquito";
+
         });
 
         imgTag4.setOnClickListener(e -> {
