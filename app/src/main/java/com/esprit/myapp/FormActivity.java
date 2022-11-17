@@ -66,8 +66,6 @@ public class FormActivity extends AppCompatActivity {
 
         imgTag1.setOnClickListener(e -> {
             tag = "Trash";
-            tvTag1.setSelected(true);
-            tvTag1.setHighlightColor(Color.RED);
         });
 
         imgTag2.setOnClickListener(e -> {
