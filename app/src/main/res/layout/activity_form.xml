@@ -90,7 +90,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+            app:layout_constraintTop_toBottomOf="@+id/details"
             app:srcCompat="@drawable/upload_icon" />
 
         <Button
@@ -102,7 +102,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.117"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+            app:layout_constraintTop_toBottomOf="@+id/details" />
 
         <Button
             android:id="@+id/submitButton"
@@ -129,7 +129,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
         <EditText
-            android:id="@+id/editTextTextMultiLine"
+            android:id="@+id/details"
             android:layout_width="402dp"
             android:layout_height="70dp"
             android:layout_marginTop="16dp"
@@ -158,7 +158,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Tag1"
+            android:text="Trash"
             android:textAlignment="center"
             android:textColor="#2e3d6d"
             android:textStyle="bold"
@@ -172,7 +172,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Tag2"
+            android:text="Leak"
             android:textAlignment="center"
             android:textColor="#2e3d6d"
 
@@ -187,7 +187,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Tag3"
+            android:text="Mosquito"
             android:textAlignment="center"
             android:textColor="#2e3d6d"
 
@@ -202,7 +202,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Tag4"
+            android:text="Pothole"
             android:textAlignment="center"
             android:textColor="#2e3d6d"
 
@@ -217,7 +217,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Tag5"
+            android:text="Lighting"
             android:textAlignment="center"
             android:textColor="#2e3d6d"
 
@@ -232,7 +232,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Tag6"
+            android:text="Other"
             android:textAlignment="center"
             android:textColor="#2e3d6d"
 

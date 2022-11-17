@@ -23,12 +23,12 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
         user = (User) getIntent().getSerializableExtra("User");
         System.out.println(user.getEmail());
         formBtn = findViewById(R.id.goToForm);
         formBtn.setOnClickListener(e -> {
             intent = new Intent(MenuActivity.this , FormActivity.class);
+            intent.putExtra("User", user);
             startActivity(intent);
         });
 

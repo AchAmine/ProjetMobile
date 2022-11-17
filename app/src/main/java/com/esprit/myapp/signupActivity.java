@@ -40,7 +40,7 @@ public class signupActivity extends AppCompatActivity {
                  intent = new Intent(signupActivity.this , LoginActivity.class);
             startActivity(intent);
             } else {
-                Toast.makeText(signupActivity.this, "Password is not matching", Toast.LENGTH_SHORT).show();
+                Toast.makeText(signupActivity.this, "Please enter valid information", Toast.LENGTH_SHORT).show();
 
             }
         });
